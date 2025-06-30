@@ -16,4 +16,4 @@ async def read_root(request: Request):
 
 @app.get("/api/hello")
 def hello():
-    return {"message": "Hello from API!"}
+    return {"message": "Hello from API! YEAH"}
